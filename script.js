@@ -12,7 +12,7 @@ const projects = [
     description:
       "Production-style ML app that forecasts stock prices with Facebook Prophet and builds an optimal portfolio using Markowitz optimisation. Being extended to cover the Dhaka Stock Exchange (DSE).",
     tech: ["Python", "Prophet", "Streamlit", "Pandas"],
-    github: "https://github.com/sadmanmahmood3",
+    github: "https://github.com/sadmanmahmood3/portfolio-optimisation",
     live: "",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     description:
       "Predicts the risk of collisions between satellites in orbit. Built with a teammate.",
     tech: ["Python", "Machine Learning"],
-    github: "https://github.com/sadmanmahmood3",
+    github: "https://github.com/sadmanmahmood3/satcollide",
     live: "",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       "Full website for my own clothing brand (hoodies & punjabi), with a clean, premium look inspired by global streetwear brands. Deployed on Netlify.",
     tech: ["HTML", "CSS", "JavaScript", "Netlify"],
-    github: "", // private repo
+    github: "https://github.com/sadmanmahmood3/AROHA", // private repo
     live: "https://arohabd.netlify.app",
   },
   {
