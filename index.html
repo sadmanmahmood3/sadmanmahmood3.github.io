@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sadman Mahmood — Software Engineer</title>
+  <meta name="description" content="Portfolio of Sadman Mahmood, CSE student at IUB — software engineering and machine learning projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav">
+    <a href="#top" class="logo">&lt;sadman /&gt;</a>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">◐</button>
+      <button id="menuBtn" class="icon-btn menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <p class="mono greeting">Hi, my name is</p>
+      <h1>Sadman Mahmood.</h1>
+      <h2 class="typed-line">I build <span id="typed" class="accent"></span><span class="cursor">|</span></h2>
+      <p class="hero-text">
+        Computer Science &amp; Engineering student at Independent University, Bangladesh,
+        focused on software engineering and machine learning. I like turning ideas into
+        working products — from ML forecasting apps to full e-commerce websites.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View my work</a>
+        <a href="assets/Sadman_Mahmood_CV.pdf" class="btn" download>Download CV</a>
+        <a href="https://github.com/sadmanmahmood3" target="_blank" rel="noopener" class="btn ghost">GitHub ↗</a>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section reveal">
+      <h3 class="section-title"><span class="mono">01.</span> About me</h3>
+      <div class="about-grid">
+        <div>
+          <p>
+            I'm a final-year CSE student at IUB who enjoys building things end to end.
+            My interests sit between <strong>software development</strong> and
+            <strong>machine learning</strong> — I like models best when they're wrapped
+            in something people can actually use.
+          </p>
+          <p>
+            Recently I've been working on a stock forecasting and portfolio optimisation
+            app that covers the Dhaka Stock Exchange, a satellite collision predictor, and
+            the website for my own clothing brand, AROHA. I'm also starting an undergraduate
+            research paper.
+          </p>
+          <p>I'm looking for <strong>software engineering / developer</strong> roles and internships.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="stat-num" data-count="5">0</span><span>Projects</span></div>
+          <div class="stat"><span class="stat-num" data-count="1">0</span><span>Live website</span></div>
+          <div class="stat"><span class="stat-num" data-count="4">0</span><span>Languages</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section reveal">
+      <h3 class="section-title"><span class="mono">02.</span> Skills</h3>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section reveal">
+      <h3 class="section-title"><span class="mono">03.</span> Projects</h3>
+      <div class="filters" id="filters"></div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section reveal">
+      <h3 class="section-title"><span class="mono">04.</span> Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div>
+            <h4>B.Sc. in Computer Science &amp; Engineering</h4>
+            <p class="muted">Independent University, Bangladesh (IUB) · Expected 2027</p>
+            <p>Relevant coursework: Software Engineering, Artificial Intelligence, Database Systems, Data Structures &amp; Algorithms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section reveal contact">
+      <h3 class="section-title center"><span class="mono">05.</span> Get in touch</h3>
+      <p>I'm open to internships and junior developer roles. Whether you have an opportunity or just want to say hi, my inbox is open.</p>
+      <a href="mailto:your.email@example.com" class="btn primary big">Say hello</a>
+      <div class="socials">
+        <a href="https://github.com/sadmanmahmood3" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:your.email@example.com">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="mono">Designed &amp; built by Sadman Mahmood · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
