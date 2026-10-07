@@ -158,6 +158,16 @@ main { max-width: 1050px; margin: 0 auto; padding: 0 24px; }
 }
 .timeline-item h4 { color: var(--heading); font-size: 1.15rem; }
 
+/* ========== CERTIFICATIONS ========== */
+.cert-card {
+  display: flex; gap: 32px; align-items: center;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 28px;
+}
+.cert-badge { width: 150px; height: 150px; flex-shrink: 0; border-radius: 16px; }
+.cert-body h4 { color: var(--heading); font-size: 1.25rem; }
+.cert-skills { margin: 14px 0 20px 18px; font-size: 0.95rem; }
+.cert-links { display: flex; gap: 12px; flex-wrap: wrap; }
+
 /* ========== CONTACT ========== */
 .contact { text-align: center; max-width: 600px; margin: 0 auto; }
 .socials { display: flex; justify-content: center; gap: 28px; }
@@ -180,5 +190,7 @@ footer { text-align: center; padding: 30px; font-size: 0.85rem; color: var(--mut
   .stats { grid-template-columns: repeat(3, 1fr); }
   .stat { flex-direction: column; align-items: center; padding: 14px; gap: 0; text-align: center; font-size: 0.85rem; }
   .projects-grid { grid-template-columns: 1fr; }
+  .cert-card { flex-direction: column; text-align: left; align-items: flex-start; padding: 22px; }
+  .cert-badge { width: 110px; height: 110px; }
   .section { padding: 64px 0; }
 }

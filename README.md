@@ -11,6 +11,7 @@ My personal portfolio website, built from scratch with plain **HTML, CSS and Jav
 - Project cards generated from a JavaScript data array, with category filters
 - Fade-in animations on scroll
 - Downloadable CV
+- Certifications section with Credly verification links
 
 ## Project structure
 ```
@@ -18,7 +19,9 @@ My personal portfolio website, built from scratch with plain **HTML, CSS and Jav
 ├── style.css      # styling and theme colors
 ├── script.js      # project/skill data + interactivity
 └── assets/
-    └── Sadman_Mahmood_CV.pdf
+    ├── Sadman_Mahmood_CV.pdf
+    ├── cisco-ccna-itn-badge.png
+    └── Cisco_CCNA_ITN_Certificate.pdf
 ```
 
 ## Updating content

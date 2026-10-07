@@ -12,7 +12,7 @@ const projects = [
     description:
       "Production-style ML app that forecasts stock prices with Facebook Prophet and builds an optimal portfolio using Markowitz optimisation. Being extended to cover the Dhaka Stock Exchange (DSE).",
     tech: ["Python", "Prophet", "Streamlit", "Pandas"],
-    github: "https://github.com/sadmanmahmood3/portfolio-optimisation",
+    github: "https://github.com/sadmanmahmood3",
     live: "",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     description:
       "Predicts the risk of collisions between satellites in orbit. Built with a teammate.",
     tech: ["Python", "Machine Learning"],
-    github: "https://github.com/sadmanmahmood3/satcollide",
+    github: "https://github.com/sadmanmahmood3",
     live: "",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       "Full website for my own clothing brand (hoodies & punjabi), with a clean, premium look inspired by global streetwear brands. Deployed on Netlify.",
     tech: ["HTML", "CSS", "JavaScript", "Netlify"],
-    github: "https://github.com/sadmanmahmood3/AROHA", // private repo
+    github: "", // private repo
     live: "https://arohabd.netlify.app",
   },
   {
@@ -61,6 +61,7 @@ const skills = [
   { group: "Languages", items: ["Python", "Java", "SQL", "JavaScript"] },
   { group: "Web", items: ["HTML", "CSS", "Streamlit", "Netlify"] },
   { group: "ML & Data", items: ["Pandas", "Prophet", "scikit-learn", "Google Colab"] },
+  { group: "Networking", items: ["IPv4 / IPv6", "Routing & Switching", "Cisco IOS", "Packet Tracer"] },
   { group: "Tools", items: ["Git", "GitHub", "VS Code", "Windows"] },
 ];
 
