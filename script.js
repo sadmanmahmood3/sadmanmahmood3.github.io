@@ -5,6 +5,17 @@
    ========================================================= */
 
 const projects = [
+    {
+    title: "SalesCast — Sales Forecasting & Inventory Planner",
+    status: "Live",
+    category: "Machine Learning",
+    description:
+      "Forecasts product sales, detects seasonal and festival patterns (Eid, Pohela Boishakh), and recommends when and how much stock to reorder. Built for my clothing brand AROHA, usable by any small business with a sales CSV.",
+    tech: ["Python", "Prophet", "scikit-learn", "Streamlit", "Plotly"],
+    github: "https://github.com/sadmanmahmood3/SalesCast",
+    live: "https://salescast-bd.streamlit.app",
+  },
+  
   {
     title: "Stock Forecasting & Portfolio Optimiser",
     status: "In progress",
