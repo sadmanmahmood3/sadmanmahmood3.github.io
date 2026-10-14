@@ -1,6 +1,6 @@
 # Sadman Mahmood — Portfolio
 
-My personal portfolio website, built from scratch with plain **HTML, CSS and JavaScript** (no frameworks).
+My personal portfolio website, built from the scratch with plain **HTML, CSS and JavaScript** (no frameworks).
 
 🔗 **Live:** https://sadmanmahmood3.github.io
 
